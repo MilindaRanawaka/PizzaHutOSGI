@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PizzaHutAddFood
+Bundle-SymbolicName: PizzaHutAddFood
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: pizzahutaddfood.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: PizzaHutAddFood
+Import-Package: org.osgi.framework;version="1.3.0",
+ pizzahutclientpublisher
+Bundle-ActivationPolicy: lazy
+Export-Package: pizzahutaddfood;uses:="org.osgi.framework"

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PizzaHutAdminMenu
+Bundle-SymbolicName: PizzaHutAdminMenu
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: pizzahutadminmenu.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: PizzaHutAdminMenu
+Import-Package: org.osgi.framework;version="1.3.0",
+ pizzahutclientpublisher
+Bundle-ActivationPolicy: lazy
+Export-Package: pizzahutadminmenu
+Require-Bundle: PizzaHutAddFood;bundle-version="1.0.0",
+ PizzaHutDelivery;bundle-version="1.0.0"
